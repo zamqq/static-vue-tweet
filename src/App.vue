@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VueTweet id="1665052152840986626" />
+    <VueTweet id="20" />
   </div>
 </template>
 

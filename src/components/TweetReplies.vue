@@ -2,7 +2,7 @@
   <div class="tweet-replies">
     <a
       class="tweet-replies-link"
-      :href="`https://twitter.com/'${data.user.screen_name}/status/${data.id_str}`"
+      :href="`https://twitter.com/${data.user.screen_name}/status/${data.id_str}`"
       target="_blank"
       rel="noopener noreferrer"
     >

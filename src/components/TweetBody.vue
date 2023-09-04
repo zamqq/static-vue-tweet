@@ -2,11 +2,11 @@
   <div class="tweet-body">
     <div class="tweet-body-text">
       <span class="tweet-text">{{ parseTweetText }}</span>
-      <div
+      <div v-if="media != undefined"
+        class="tweet-body-wrapper"
         :class="{
           [`tweet-body-wrapper--${media.length}`]: media.length > 0,
         }"
-        class="tweet-body-wrapper"
       >
         <div class="tweet-photos" v-for="item in media">
           <a
